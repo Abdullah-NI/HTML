@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Rajistration form</h4>
+    <form action="/action.php" >
+<!--1--> <input type="text" placeholder="User name">
+        <br>
+        <br>
+<!--2--> <input type="password" placeholder="Password">
+        <br>
+        <br>
+<!--3--> <!--Radio butten i.e jinme se ek chose kar sakte hai-->
+    <!-- <input type="radio" value="Class XI" name="Class">Class XI
+        <input type="radio" value="Class XII" name="Class">Class XII -->
+        <h5>Select your class</h5>
+        <label for="101">
+            <input type="radio" value="Class XI" name="Class" id="101">Class XI
+        </label>
+        <br>
+        <label for="102">
+            <input type="radio" value="Class XII" name="Class" id="102">Class XII 
+        </label>
+
+        <br><br>
+<!--4--> <!-- Checkbox i.e. jinme kai option chek kar sakte hai-->
+        <h5>Select your subject</h5>
+        <lable for="101">
+            <input type="checkbox" value="math"  id="101">Maths
+        </lable>
+        <br>
+        <lable for="phy">
+            <input type="checkbox" value="phy" id="101">physics
+        </lable>
+        <br>
+        <lable for="chem">
+            <input type="checkbox" value="chem" id="101">chemistry
+        </lable>
+        <br>
+        <lable for="">
+            <input type="checkbox" value="math" id="101"> computer science
+        </lable>
+        <br><br>
+<!--5-->   <!--Dropdown menue-->
+             Select your city     
+            <select name="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Banglor">Banglor</option>
+                <option value="Kanpur">kanpur</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+
+        <br><br>
+<!--6--><textarea name="Feedback" id="101" placeholder="Please give your valuble feedback here" rows="5">Feedback</textarea>
+        <br>
+<!--7--><input type="submit" value="submit">
+    </form>
+</body>
+</html>
